@@ -24,7 +24,7 @@ Kurstoday ([Курс валют в Украине](https://kurstoday.com)) - э�
 
 **Установка composer пакета:**
 ```` console
-composer install kurstoday/api
+composer require kurstoday/api
 ```` 
 
 После установки вы можете использовать экземпляр класса Kurstoday для работы с API;
