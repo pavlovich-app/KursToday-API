@@ -20,10 +20,14 @@
     "require": {
         "php": "7.*"
     },
-
     "autoload": {
         "psr-4": {
             "kurstoday\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
         }
     }
 }
