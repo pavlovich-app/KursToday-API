@@ -2,24 +2,26 @@
     "name": "kurstoday/api",
     "description": "Бесплатный API клиент для получения курсов валют из сайта https://kurstoday.com/",
     "keywords": [
-        "API для получения курсов валют (KursToday)",
-        "Курс валют API",
-        "Курс в обменниках Луцка, Киева, Харькова, Днепра, Львова",
+        "API для получения курсов валют",
         "Курс валют в банках Украины",
-        "История курсов валют"
+        "История курсов валют",
+        "Курс валют API",
+        "Курс валют на сайт"
     ],
-    "type": "composer-plugin",
-
-    "require": {
-        "php": "7.*"
-    },
-
     "authors": [
         {
             "name": "Oleksandr P.",
             "email": "pavlovich.app@gmail.com"
         }
     ],
+    "version": "1.0",
+    "minimum-stability": "stable",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "require": {
+        "php": "7.*"
+    },
+
     "autoload": {
         "psr-4": {
             "kurstoday\\": "src/"
