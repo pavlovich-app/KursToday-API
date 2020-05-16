@@ -16,7 +16,7 @@
     ],
     "version": "1.0",
     "minimum-stability": "stable",
-    "type": "composer-plugin",
+    "type": "library",
     "license": "MIT",
     "require": {
         "php": "7.*"
