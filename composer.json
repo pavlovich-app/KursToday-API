@@ -14,7 +14,7 @@
             "email": "pavlovich.app@gmail.com"
         }
     ],
-    "version": "1.0",
+    "version": "1.0.0",
     "minimum-stability": "stable",
     "type": "library",
     "license": "MIT",
