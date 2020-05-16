@@ -15,7 +15,6 @@
         }
     ],
     "version": "1.0.0",
-    "minimum-stability": "stable",
     "type": "library",
     "license": "MIT",
     "require": {
