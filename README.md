@@ -29,7 +29,8 @@ composer require kurstoday/api
 
 После установки вы можете использовать экземпляр класса Kurstoday для работы с API;
 
-```` php
+````php
+<?php
 use kurstoday\Kurstoday; // подключаем класс
 
 $kurstoday = new Kurstoday; // создаем экземпляр класса
@@ -40,7 +41,7 @@ $kurstoday = new Kurstoday; // создаем экземпляр класса
 ## Пример получения курсов валют в обменниках Луцка ##
 
 ````php
-$lutskService = $kurstoday->getService('lutsk');
+<?php $lutskService = $kurstoday->getService('lutsk'); ?>
 ````
 
 В ответ мы получим массив, с описанием сервиса и вложенным массивом **exchangers** в котором описаны сами обменники (банки):
@@ -80,7 +81,7 @@ $lutskService = $kurstoday->getService('lutsk');
 
 ## Пример получение среднего курса валют в обменниках Харькова ##
 ````php
-$kharkivAverage = $kurstoday->getAverage('kharkiv');
+<?php $kharkivAverage = $kurstoday->getAverage('kharkiv'); ?>
 ````
 
 В ответ мы получим массив с курсами валют для Харькова:
