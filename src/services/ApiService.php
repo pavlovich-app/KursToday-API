@@ -3,15 +3,15 @@ namespace kurstoday\services;
 
 class ApiService
 {
-    const BASIC_DOMAIN = 'https://kurstoday.com';
+    const BASIC_DOMAIN = 'https://kurstoday.com.ua';
 
     const SERVICE_ENDPOINT = '/api/service/';
     const AVERAGE_ENDPOINT = '/api/average/';
     const CHART_ENDPOINT = '/api/chart/';
 
     /**
-     * @example https://kurstoday.com/api/service/lutsk
-     * @example https://kurstoday.com/api/service/banks
+     * @example https://kurstoday.com.ua/api/service/lutsk
+     * @example https://kurstoday.com.ua/api/service/banks
      *
      * @param string $serviceName
      * @return array
@@ -23,8 +23,8 @@ class ApiService
     }
 
     /**
-     * @example https://kurstoday.com/api/average/lutsk
-     * @example https://kurstoday.com/api/average/banks
+     * @example https://kurstoday.com.ua/api/average/lutsk
+     * @example https://kurstoday.com.ua/api/average/banks
      *
      * @param string $serviceName
      * @return array|null
@@ -36,7 +36,7 @@ class ApiService
     }
 
     /**
-     * @example https://kurstoday.com/api/chart?from=2000-01&to=2020-05&exchanger_id=9&currency=usd
+     * @example https://kurstoday.com.ua/api/chart?from=2000-01&to=2020-05&exchanger_id=9&currency=usd
      * 
      * @param string $from
      * @param string $to
