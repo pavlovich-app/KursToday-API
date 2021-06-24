@@ -40,27 +40,27 @@ $kurstoday = new Kurstoday; // создаем экземпляр класса
 
 **Полный список городов представлен ниже:**
 
-*banks-of-ukraine
-*kiev
-*lutsk
-*kharkiv
-*lviv
-*dnipro
-*odessa
-*rivne
-*ivano-frankivsk
-*sumy
-*zhytomyr
-*zaporizhzhia
-*mykolaiv
-*poltava
-*chernivtsi
-*khmelnytskyi
-*herson
-*kamin-kashirsky
-*kovel
-*volodymyr-volynskyi
-*kryvyi-rih
+* banks-of-ukraine
+* kiev
+* lutsk
+* kharkiv
+* lviv
+* dnipro
+* odessa
+* rivne
+* ivano-frankivsk
+* sumy
+* zhytomyr
+* zaporizhzhia
+* mykolaiv
+* poltava
+* chernivtsi
+* khmelnytskyi
+* herson
+* kamin-kashirsky
+* kovel
+* volodymyr-volynskyi
+* kryvyi-rih
 
 В ответ мы получим массив, с описанием сервиса и вложенным массивом **exchangers** в котором описаны сами обменники (банки):
 
