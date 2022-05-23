@@ -1,8 +1,8 @@
 KursToday API (API для получения курсов валют)
 ===============================================
-![Курс валют в Украине](https://kurstoday.com.ua/images/logo/icon-128x128.png)
+![Курс валют в Украине](https://rate.in.ua/images/logo/icon-128x128.png)
 
-Kurstoday ([Курс валют в Украине](https://kurstoday.com.ua)) - это сайт агрегатор в котором собраны все самые популярные банки и обменники Украины.
+Rate.in.ua ([Курс валют в Украине](https://rate.in.ua)) - это сайт агрегатор в котором собраны все самые популярные банки и обменники Украины.
 
 На данный момент мы предоставляем информацию о курсах валют более чем 20 гороов Украины;
 
@@ -27,7 +27,7 @@ composer require kurstoday/api
 <?php
 use kurstoday\Kurstoday; // подключаем класс
 
-$kurstoday = new Kurstoday; // создаем экземпляр класса
+$api = new Kurstoday; // создаем экземпляр класса
 ````
 
 
@@ -35,7 +35,7 @@ $kurstoday = new Kurstoday; // создаем экземпляр класса
 ## Пример получения курсов валют в обменниках Луцка ##
 
 ````php
-<?php $lutskService = $kurstoday->getService('lutsk'); ?>
+<?php $lutskService = $api->getService('lutsk'); ?>
 ````
 
 **Полный список городов представлен ниже:**
@@ -99,7 +99,7 @@ $kurstoday = new Kurstoday; // создаем экземпляр класса
 
 ## Пример получение среднего курса валют в обменниках Харькова ##
 ````php
-<?php $kharkivAverage = $kurstoday->getAverage('kharkiv'); ?>
+<?php $kharkivAverage = $api->getAverage('kharkiv'); ?>
 ````
 
 В ответ мы получим массив с курсами валют для Харькова:
