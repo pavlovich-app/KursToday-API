@@ -3,7 +3,7 @@ namespace kurstoday\services;
 
 class ApiService
 {
-    const BASIC_DOMAIN = 'https://rate.in.ua';
+    const BASIC_DOMAIN = 'https://rates.com.ua';
 
     const SERVICE_ENDPOINT = '/api/service/';
     const AVERAGE_ENDPOINT = '/api/average/';
